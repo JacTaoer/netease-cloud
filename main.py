@@ -148,8 +148,7 @@ class Task(object):
             "| 累计播放 |       " + str(self.listenSongs) + "首       |\n"
             "| 升级提示 |      " + self.tip + "       |\n"
             "------\n"
-            "### 任务状态\n" + str(state) + "\n\n"
-            "### 考研倒计时\n距考研还有" + str(date) + "天，主人要加油学习啊\n"
+            "### 任务状态\n" + str(state) + "\n\n"           
             "### 今日一句\n" + one + "\n\n")
 
     '''
